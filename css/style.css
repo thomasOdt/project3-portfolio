@@ -74,6 +74,7 @@ h2 {
 }
 
 /* main */
+
 #jumbotron {
     margin:1em 0;
 }
@@ -82,8 +83,48 @@ h2 {
 }
 @media screen and (max-width:750px) {
     #jumbotron {
-        margin: 1em -1em; //make img full blend
+        margin: 1em -1em; /* make img full blend */
     }
 }
 
+/* portfolio */
+
+h3 {
+    font: 2.0em 'Open Sans', sans-serif;
+    color: #475ea2;
+    text-transform: uppercase;
+    margin:0;
+    line-height: 1.0;
+}
+
+#portfolio {
+    width:100%;
+    font: 1em 'Droid Serif', serif;
+}
+.portfolio-image {
+    width:100%;
+    max-width:600px;
+}
+
+#three-items {
+    display:flex;
+    justify-content: space-between;
+}
+
+#three-items--left,
+#three-items--middle,
+#three-items--right {
+    width:100%;
+    margin: 1em 0em;
+}
+#three-items--middle {
+    margin: 1em;
+}
+h4 {
+    text-align: center;
+    font: 1.5em 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    margin:0;
+    line-height: 1.0;
+}
 
